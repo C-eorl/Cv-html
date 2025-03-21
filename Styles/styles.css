@@ -1,24 +1,77 @@
-main{
-    margin-top: 100px;
+*{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    box-sizing: border-box;
 }
+body{
+    margin: 0px;
+    padding: 0px;
+    
 
+}
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 .navbar {
     border-radius: 25px;
     list-style-type: none;
-    position: relative;
-    background-color: #1e4dcf;
-    margin-left: 15px;
-    margin-right: 15px;
+    position: absolute;
+    background-color: #272727;
     height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
 }
-.navbar a{
-    font-family: "Poppins", sans-serif;
+
+.lien-nav {
     font-size: 25px;
     font-weight: 700;
     text-decoration: none;
-    color: inherit;
+ 
+}
+
+.lien-nav.actif {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.section {
+    display: none;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    transition: opacity 0.3s;
+}
+.section.actif{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#presentation{
+    background-color: #40a2db;
+}
+#competences{
+    background-color: #2f8cc2;
+}
+#diplomes{
+    background-color: #247bad;
+}
+#experiences{
+    background-color: #196794;
+}
+#contact{
+    background-color: #0e4d72;
 }

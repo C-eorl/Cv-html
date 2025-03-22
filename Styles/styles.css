@@ -63,6 +63,15 @@ nav {
 #presentation{
     background-color: #40a2db;
 }
+.photo{
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    clip-path: circle(40% at 44% 50%);
+}
+#presentation > *{
+    width: 50%;
+}
 #competences{
     background-color: #2f8cc2;
 }

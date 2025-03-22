@@ -1,3 +1,4 @@
+/** ####################### -- GENERAL -- ########################### **/
 *{
     font-family: "Poppins", sans-serif;
     color: white;
@@ -16,6 +17,7 @@ main{
     justify-content: center;
 
 }
+/** ####################### -- NAVBAR -- ########################### **/
 nav {
     position: sticky;
     top: 0;
@@ -45,7 +47,7 @@ nav {
     font-weight: bold;
     font-size: 35px;
 }
-
+/** ####################### -- CONTENU -- ########################### **/
 .section {
     display: none;
     padding: 50px;
@@ -59,7 +61,7 @@ nav {
     height: 100vh;
     display: flex;
 }
-
+/** ####################### -- PRESENTATION -- ########################### **/
 #presentation{
     background-color: #40a2db;
 }
@@ -72,15 +74,80 @@ nav {
 #presentation > *{
     width: 50%;
 }
+/** ####################### -- COMPETENCES -- ########################### **/
 #competences{
     background-color: #2f8cc2;
 }
+#competences *{
+    margin: 0px;
+}
+#competences p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+#competences div{
+    height: 55%;
+    width: 33%;
+    margin: 20px;
+    padding: 50px;
+    border: 4px solid white;
+    border-radius: 15%;
+}
+
+/** ####################### -- DIPLOMES -- ########################### **/
 #diplomes{
     background-color: #247bad;
 }
+#diplomes *{
+    margin: 0px;
+}
+#diplomes p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+#diplomes h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#diplomes h5{
+    font-weight: 100;
+    font-size: 25px;
+}
+#diplomes div{
+    height: 55%;
+    width: 33%;
+    margin: 20px;
+    padding: 50px;
+    border: 4px solid white;
+    border-radius: 15%;
+}
+#diplomes div:first-child h3{
+    margin-top: 55px;
+}
+/** ####################### -- EXPERIENCES -- ########################### **/
 #experiences{
     background-color: #196794;
 }
+#experiences *{
+    margin: 0px;
+}
+#expereinces p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+#experiences h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+#experiences div{
+    height: 55%;
+    width: 33%;
+    margin: 20px;
+    padding: 50px;
+    border: 4px solid white;
+    border-radius: 15%;
+}
+/** ####################### -- CONTACT -- ########################### **/
 #contact{
     background-color: #0e4d72;
 }

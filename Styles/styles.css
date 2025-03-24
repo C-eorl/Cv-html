@@ -19,13 +19,16 @@ main{
 }
 /** ####################### -- NAVBAR -- ########################### **/
 nav {
+    display: flex;
+    justify-content: center;
     position: sticky;
     top: 0;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     z-index: 1;
 }
 .navbar {
-    border-radius: 25px;
+    border-radius: 30px;
     list-style-type: none;
     position: absolute;
     background-color: #272727;
@@ -38,14 +41,14 @@ nav {
 
 .lien-nav {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
  
 }
 
 .lien-nav.actif {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
 }
 /** ####################### -- CONTENU -- ########################### **/
 .section {
@@ -131,7 +134,7 @@ nav {
 #experiences *{
     margin: 0px;
 }
-#expereinces p{
+#experiences p{
     margin-top: 20px;
     font-size: 25px;
 }
@@ -146,6 +149,9 @@ nav {
     padding: 50px;
     border: 4px solid white;
     border-radius: 15%;
+}
+#experiences p:last-child{
+    margin-top: 20px;
 }
 /** ####################### -- CONTACT -- ########################### **/
 #contact{
